@@ -26,4 +26,6 @@ pyinstaller.exe --onefile --windowed main.py<br />
 Once the execution of this command is completed, a new folder with the name dist will be formed inside scripts folder inside which you will find your stand alone executable file.
 
 
-(One important thing to note is that the version of the file depends on the system version of your system. If you are using the 64-bit version then the appliction created will also be 64 bit and it will be supported only in 64 bit system. If you want to make a 32-bit version of the same application then you can repeat the aboe process in a 32-bit system.)
+#One important thing to note is that the version of the file depends on the system version of your system. If you are using the 64-bit version then the appliction created will also be 64 bit and it will be supported only in 64 bit system. If you want to make a 32-bit version of the same application then you can repeat the aboe process in a 32-bit system.
+
+#Another notable thing is although we are creating a standalone executable yet the resources used by the code still need to b provided explicitly. For example if you are using some images or csv files in your code then these should always be present along with the .exe file. Absence of these files will cause error.
