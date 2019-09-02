@@ -17,3 +17,4 @@ pyinstaller.exe --onefile --windowed --icon=calc.ico main.py<br />
 pyinstaller.exe --onefile --windowed main.py<br /> 
 
 Once the execution of this command is completed, a new folder with the name dist will be formed inside scripts folder inside which you will find your stand alone executable file.
+.
